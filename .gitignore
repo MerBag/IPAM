@@ -1,0 +1,47 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.ssh/
+.secrets/
+.npmrc
+.pypirc
+.netrc
+.merbag_known_hosts
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+.test-venv/
+venv/
+
+# Node / frontend builds
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local data, exports, and logs
+backups/
+exports/
+*.dump
+*.sql
+*.log
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
